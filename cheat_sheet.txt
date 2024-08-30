@@ -1,0 +1,313 @@
+Linux Command Cheat Sheet
+==========================
+
+ls: List directory contents
+pwd: Print the current working directory
+cd: Change the current directory
+mkdir: Create a new directory
+rmdir: Remove empty directories
+rm: Remove files or directories
+cp: Copy files or directories
+mv: Move or rename files or directories
+echo: Display a line of text
+cat: Concatenate and display files
+grep: Search text using patterns
+chmod: Change file permissions
+chown: Change file owner and group
+find: Search for files in a directory hierarchy
+tar: Archive files
+gzip: Compress files
+gunzip: Decompress files
+zip: Package and compress files
+unzip: Extract compressed files
+ssh: Secure shell for remote login
+scp: Secure copy files over SSH
+rsync: Remote file and directory synchronization
+df: Report file system disk space usage
+du: Estimate file space usage
+top: Display Linux tasks
+htop: Interactive process viewer
+ps: Report a snapshot of current processes
+kill: Send a signal to a process
+killall: Kill processes by name
+pkill: Send a signal to processes by name
+bg: Resume a suspended job in the background
+fg: Resume a suspended job in the foreground
+jobs: List active jobs
+uptime: Show how long the system has been running
+man: Display the manual for a command
+curl: Transfer data from or to a server
+wget: Download files from the web
+uname: Print system information
+hostname: Show or set the system’s hostname
+whoami: Print the current user ID
+id: Print user and group IDs
+date: Print or set the system date and time
+cal: Display a calendar
+bc: Calculator utility
+shutdown: Shut down or reboot the system
+reboot: Reboot the system
+halt: Halt the system
+poweroff: Power off the system
+init: Change runlevel or reboot the system
+systemctl: Control the systemd system and service manager
+service: Run a System V init script
+journalctl: Query the systemd journal
+su: Substitute user identity
+sudo: Execute a command as another user
+useradd: Add a new user
+usermod: Modify a user account
+userdel: Delete a user account
+passwd: Change user password
+groupadd: Add a new group
+groupdel: Delete a group
+groups: Print the groups a user is in
+chage: Change user password expiry information
+crontab: Manage cron jobs
+at: Schedule a command to be run at a particular time
+batch: Schedule commands to be executed in batch mode
+watch: Execute a command periodically
+nohup: Run a command immune to hangups
+disown: Remove jobs from the shell’s job table
+xkill: Forcefully close a graphical application
+lsof: List open files
+strace: Trace system calls and signals
+dmesg: Print or control the kernel ring buffer
+who: Show who is logged on
+w: Show who is logged on and what they are doing
+last: Show listing of last logged in users
+lastlog: Report the most recent login of all users
+mesg: Control write access to your terminal
+write: Send a message to another user
+wall: Send a message to all logged-in users
+mail: Send and receive mail
+mailq: Print the mail queue
+sendmail: Send mail via the sendmail transport
+postfix: Start, stop, or restart the postfix mail transport
+netstat: Print network connections, routing tables, interface statistics, etc.
+ss: Investigate sockets
+ip: Show/manipulate routing, devices, policy routing, and tunnels
+ifconfig: Configure network interfaces
+ping: Send ICMP ECHO_REQUEST to network hosts
+traceroute: Print the route packets take to the network host
+mtr: Network diagnostic tool that combines ping and traceroute
+nslookup: Query internet name servers interactively
+dig: DNS lookup utility
+host: DNS lookup utility
+arp: Manipulate the system ARP cache
+ethtool: Display or change Ethernet device settings
+iwconfig: Configure wireless network interfaces
+iwlist: Get more detailed wireless information
+lsblk: List information about block devices
+blkid: Locate/print block device attributes
+lsusb: List USB devices
+lspci: List PCI devices
+lsmod: Show the status of modules in the Linux Kernel
+modprobe: Add or remove modules from the Linux Kernel
+insmod: Insert a module into the Linux Kernel
+rmmod: Remove a module from the Linux Kernel
+depmod: Generate modules.dep and map files
+modinfo: Show information about a Linux Kernel module
+hostnamectl: Control the system hostname
+timedatectl: Control the system time and date
+hwclock: Query and set the hardware clock (RTC)
+mkinitcpio: Generate an initial ramdisk environment
+lsinitcpio: List the contents of an initramfs image
+loginctl: Control the state of the logged-in users
+machinectl: Control the state of the virtual machines and containers
+networkctl: Query and change the state of the network links
+resolvectl: Resolve domain names, IPV4, and IPv6 addresses
+localectl: Control the system locale and keyboard layout
+bootctl: Control the firmware and boot loader settings
+coredumpctl: Retrieve coredumps from the journal
+logind: System service to manage user logins
+udevadm: Control the Linux device manager daemon
+lsb_release: Print distribution-specific information
+adduser: Add a user to the system
+deluser: Remove a user from the system
+addgroup: Add a group to the system
+delgroup: Remove a group from the system
+visudo: Edit the sudoers file
+chsh: Change the login shell
+chfn: Change the user’s full name, office, etc.
+getent: Get entries from administrative databases
+lscpu: Display information about the CPU architecture
+lsmem: Display information about the system’s memory
+vmstat: Report virtual memory statistics
+iostat: Report CPU and I/O statistics
+dstat: Versatile resource statistics
+mpstat: Report processors related statistics
+pidstat: Report statistics for Linux tasks
+iftop: Display bandwidth usage on an interface
+nload: Monitor network traffic and bandwidth usage
+vnstat: Console-based network traffic monitor
+iptraf: Real-time network statistics
+bmon: Bandwidth monitor and rate estimator
+iperf: Network performance measurement tool
+mii-tool: View, manipulate media-independent interface status
+iw: Configure wireless devices
+rfkill: Query or manipulate devices that support radio transmission
+bluetoothctl: Control Bluetooth devices
+hciconfig: Configure Bluetooth devices
+hcitool: Configure Bluetooth connections
+smbclient: FTP-like client to access SMB/CIFS resources
+smbmount: Mount a shared Windows directory
+nmblookup: Query NetBIOS names and map them to IP addresses
+testparm: Check a Samba configuration file for internal correctness
+smbstatus: Report current Samba connections
+nfsstat: Display or reset statistics about the NFS client and server
+showmount: Show mount information for an NFS server
+exportfs: Maintain the list of NFS exported file systems
+rpcinfo: Report RPC information
+mount.cifs: Mount a CIFS (SMB) filesystem
+umount.cifs: Unmount a CIFS (SMB) filesystem
+fstab: Static information about the filesystems
+mount.nfs: Mount an NFS filesystem
+umount.nfs: Unmount an NFS filesystem
+sshd: OpenSSH SSH daemon
+ssh-add: Add private key identities to the authentication agent
+ssh-agent: SSH key management daemon
+ssh-copy-id: Install your public key in a remote machine’s authorized_keys
+ftpd: File Transfer Protocol daemon
+lftp: Sophisticated file transfer program
+axel: Light command line download accelerator
+aria2: Lightweight multi-protocol & multi-source command-line download utility
+youtube-dl: Download videos from YouTube and other video sites
+rtorrent: Ncurses BitTorrent client
+transmission-cli: A fast, easy, and free BitTorrent client
+qbittorrent-nox: An open-source BitTorrent client
+deluge-console: A lightweight, Free Software, cross-platform BitTorrent client
+netcat: Networking utility for reading from and writing to network connections
+telnet: User interface to the TELNET protocol
+openvpn: Open-source VPN daemon
+ipsec: Internet Protocol Security (VPN)
+strongswan: Open-source IPsec-based VPN solution
+openconnect: Open-source SSL VPN client for Cisco AnyConnect
+libreswan: Open-source VPN software implementation of IPsec
+gpg-agent: Daemon to manage secret (private) keys independently from any protocol
+cryptsetup: LUKS disk encryption setup tool
+dmsetup: Low level logical volume management
+lvcreate: Create a logical volume
+lvremove: Remove a logical volume
+lvextend: Extend the size of a logical volume
+lvreduce: Reduce the size of a logical volume
+vgcreate: Create a volume group
+vgremove: Remove a volume group
+vgextend: Add physical volumes to a volume group
+vgreduce: Remove physical volumes from a volume group
+pvcreate: Prepare a physical volume for use by LVM
+pvremove: Remove a physical volume from LVM
+pvs: Display information about physical volumes
+vgs: Display information about volume groups
+lvs: Display information about logical volumes
+mkinitrd: Create an initial ramdisk
+update-initramfs: Build an initial ramdisk image
+grub-install: Install GRUB bootloader
+update-grub: Update GRUB bootloader configuration
+grub-mkconfig: Generate a GRUB configuration file
+grub2-mkconfig: Generate a GRUB 2 configuration file
+efibootmgr: Manage UEFI boot entries
+sysctl: Modify kernel parameters at runtime
+lsattr: List file attributes on a Linux second extended file system
+chattr: Change file attributes on a Linux second extended file system
+stat: Display file or file system status
+touch: Change file timestamps or create empty files
+ln: Make links between files
+readlink: Print value of a symbolic link or canonical file name
+mkfifo: Make FIFOs (named pipes)
+mktemp: Create a temporary file or directory
+truncate: Shrink or extend the size of a file to the specified size
+getfacl: Get file access control lists (ACL)
+setfacl: Set file access control lists (ACL)
+blkdiscard: Discard sectors on a device
+partprobe: Inform the OS of partition table changes
+partx: Tell the kernel about the presence and numbering of partitions
+mkfs.btrfs: Create a Btrfs file system
+btrfs: Control a Btrfs file system
+xfs_repair: Repair an XFS file system
+xfs_db: Debug an XFS file system
+xfs_info: Print information about an XFS file system
+xfs_copy: Copy the contents of an XFS file system
+xfs_growfs: Grow an XFS file system
+resize2fs: Resize ext2/ext3/ext4 file systems
+e2label: Change the label on an ext2/ext3/ext4 file system
+tune2fs: Adjust tunable file system parameters on ext2/ext3/ext4
+debugfs: File system debugger for ext2/ext3/ext4
+mkswap: Set up a Linux swap area
+swapon: Enable paging and swapping on a device
+swapoff: Disable paging and swapping on a device
+mke2fs: Create an ext2/ext3/ext4 file system
+badblocks: Search a device for bad blocks
+file: Determine file type
+diff: Compare files line by line
+cmp: Compare two files byte by byte
+comm: Compare two sorted files line by line
+md5sum: Compute and check MD5 message digest
+sha1sum: Compute and check SHA1 message digest
+sha256sum: Compute and check SHA256 message digest
+sha512sum: Compute and check SHA512 message digest
+shred: Overwrite a file to hide its contents, and optionally delete it
+wipe: Securely erase files from magnetic media
+secure-delete: Collection of secure file deletion tools
+bleachbit: Disk space cleaner with privacy guard features
+srm: Secure remove, secure deletion of files
+rkhunter: Rootkit scanner
+chkrootkit: Check for signs of rootkits on the local system
+clamav: Clam AntiVirus
+freshclam: Update ClamAV virus databases
+tcpdump: Command-line packet analyzer
+wireshark: Network protocol analyzer
+nmap: Network exploration tool and security/port scanner
+arpwatch: Keep track of Ethernet/IP address pairings
+snort: Network Intrusion Detection System
+fail2ban: Ban IPs that make too many login attempts
+logwatch: System log analyzer and reporter
+logrotate: Rotates, compresses, and mails system logs
+syslogd: System logging daemon
+rsyslogd: Enhanced multi-threaded syslogd
+klogd: Kernel logging daemon
+auditd: Linux Auditing daemon
+ausearch: Search the audit daemon logs
+aureport: Generate summary reports from the audit logs
+auditctl: Control the state of the Linux audit system
+autrace: Trace a process with audit
+augenrules: A script that merges all rules in a given directory
+iptables: Administration tool for IPv4 packet filtering and NAT
+ip6tables: Administration tool for IPv6 packet filtering and NAT
+nft: Administration tool for the nftables framework
+firewalld: Dynamic firewall manager with D-Bus interface
+ufw: Uncomplicated Firewall, frontend for iptables
+netfilter-persistent: Loader for netfilter configuration
+conntrack: Connection tracking userspace tool
+ipset: Administration tool for IP sets
+arping: Send ARP request to a neighbor host
+nping: Network packet generation tool
+traceroute6: Print the route packets take to the network host (IPv6)
+route: Show/manipulate the IP routing table
+ip rule: Routing policy database commands
+ip route: Routing table management commands
+ip addr: IP address management commands
+ip link: Network device management commands
+ip neigh: Neighbor/ARP table management commands
+ip netns: Manage network namespaces
+ip maddr: Manage multicast addresses
+ip monitor: State monitoring
+ip xfrm: Manage IPSec policies and states
+ip tunnel: Manage tunnels
+brctl: Ethernet bridge administration
+bridge: Show/manipulate bridge addresses and devices
+ip link set: Set network interface flags
+ip addr add: Add new IP address
+ip addr del: Remove IP address
+ip link show: Display network interface status
+ip route add: Add a new route
+ip route del: Delete a route
+ip route show: Display routing table
+ip route get: Get routing table entry
+ip netns exec: Run command in network namespace
+ip netns list: List network namespaces
+ip xfrm state: Display stateful information for IPSec
+ip xfrm policy: Display policy information for IPSec
+ping6: Send ICMP ECHO_REQUEST to network hosts (IPv6)
+tracepath6: Trace path to a network host (IPv6)
+tracepath: Trace path to a network host
